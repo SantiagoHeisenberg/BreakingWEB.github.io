@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-      <title>Breaking Bad Proyecto</title>
-    <link rel="icon" type="image/x-icon" href="walter.ico">
+    <head>    
+    <title>Menu Desplegable Ejemplo</title>
+    <link rel="icon" type="image/x-icon" href="R">
     <meta charset="utf-8"/>
     <meta name="Autor" content="Santiago Heredia Pardo">
-    <meta name="Fecha" content="06 de marzo de 2025">
-    <meta name="Descripción" content="Tablas">
-    <link rel="stylesheet" type="text/css" href="persona.css">
-  </head>
-  <body>
-    <h1>Breaking Bad</h1>
-    <p>En esta página pordrás encontrar información variada acerca de la serie de Breaking Bad, y un poco de las series Spin off "Better call Saul Goodman" y la película "El camino".</p>
-  </body>
+    <meta name="Fecha" content="22 de marzo de 2025">
+    <meta name="Descripción" content="Menu desplegable">
+    <link rel="stylesheet" type="text/css" href="EstilodeMenu.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="menu-horizontal">
+                <li><button><span>Opcion</span></button></li>
+                <li>
+                    <button><span><a href="#">Opcion</a>
+                    <ul class="menu-vertical">
+                        <li><a href="#">Opcion numero 1</a></li>
+                        <li><a href="#">Opcion numero 2</a></li>
+                        <li><a href="#">Opcion numero 3</a></li>
+                    </ul></span></button>
+                </li>
+                <li>
+                    <a href="#">Opcion</a>
+                    <ul class="menu-vertical">
+                        <li><a href="#">Opcion numero 1</a></li>
+                        <li><a href="#">Opcion numero 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Opcion</a>
+                </li>
+            </ul>
+        </nav>
+    </body>
 </html>

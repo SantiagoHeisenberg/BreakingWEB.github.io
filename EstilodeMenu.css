@@ -100,5 +100,6 @@
     text-decoration: none;
 }
 .card.border-success.mb-3{
-  background-color: rgb(75, 74, 74);
+  background-color: grey;
+    color: white;
 }

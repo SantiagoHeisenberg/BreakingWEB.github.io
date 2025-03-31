@@ -1,25 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Rubik+Dirt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Pridi:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap');
+
  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rubik Dirt",sans-serif;
+    font-family: "Pridi",sans-serif;
     color: black;
   }
+  
   body{
     background-image: url(Breaking-Bad.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(75, 74, 74);
   }
   nav{
     max-width: 950px;
     margin: auto;
     background-image: linear-gradient(
       90deg,
-      rgb(46, 102, 8),
-      rgb(105, 145, 13),
-      rgb(46, 102, 8)
+      rgb(86, 185, 118),
+      rgb(69, 137, 86),
+      rgb(31, 64, 21)
     );
     border-radius: 10px;
     font-size: 20px;
@@ -29,9 +35,9 @@
     border: 0;
     background-image: linear-gradient(
       150deg,
-      rgb(180, 123, 18),
-      rgb(190, 180, 39),
-      rgb(119, 66, 16)
+      rgb(229, 176, 22),
+      rgb(233, 176, 33),
+      rgb(86, 63, 22)
     );
     border-radius: 10px;
     color: white;
@@ -43,7 +49,7 @@
     text-decoration: none;
   }
   button span{
-    background-color: rgba(173, 89, 21, 0.356);
+    background-color: rgba(233, 176, 33, 0.37);
     padding: 16px 24px;
     border-radius: 7px;
     transition: 0.3s;
@@ -57,9 +63,6 @@
     transform: scale(0.9);
     text-decoration: none;
   }
-  li a{
-    font-family: "Banahita",sans-serif;
-  }
   .menu-horizontal{
     list-style: none;
     display: flex;
@@ -72,7 +75,7 @@
     text-decoration: none;
   }
 .menu-horizontal > li:hover{
-    background-color: rgb(182, 113, 24);
+    background-color: rgba(233, 176, 33, 0.575);
     border-radius: 10px;
     font-size: 25px;
     transition: .3s;
@@ -96,13 +99,6 @@
     padding: 15px 15px 15px 20px;
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
+.card.border-success.mb-3{
+  background-color: rgb(75, 74, 74);
+}

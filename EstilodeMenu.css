@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Rubik+Dirt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Rubik+Dirt&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Bahianita&family=Pridi:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&display=swap');
 
  *{
@@ -102,4 +101,15 @@
 .card.border-success.mb-3{
   background-color: white;
     color: black;
+}
+.dropdown-menu{
+    background-color: rgba(18, 83, 18, 0.521);
+    margin-left: 100px;
+}
+.dropdown-item{
+    color: aliceblue;
+}
+.dropdown-item:hover{
+    background-color: rgba(151, 194, 66, 0.795);
+    border-radius: 5px;
 }

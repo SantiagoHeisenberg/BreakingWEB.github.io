@@ -19,30 +19,32 @@
     color: aliceblue;
     padding: 5px;
   }
+  img{
+  transition: transform 0.3s ease;
+}
+a img:hover {
+  transform: scale(1.1); 
+  z-index: 10;
+}
 </style>
     
     </head>
     <body>
         <header data-bs-theme="dark">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid" style="background-color: #314212;">
     <a href="index.html">
-    <img src="BreakingWeb.png" style="height: 75px; width: 110px; border-radius: 10px; padding: 5px;">
+    <img src="Home.png" style="height: 57px; width: 103px; border-radius: 10px; padding: 5px;">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-      <div>
-      <a href="Elenco.html">
-    <img src="Actores.png" style="height: 75px; width: 110px; border-radius: 10px; padding: 5px;">
-    </a>
-      </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100">
         <li class="nav-item">
-            <a href="https://breakingbadintrocreator.kassellabs.io/OQfGaMW0haqdfGMUnsr">
-          <img style="height: 100px; border-radius: 10px; padding:5px;" src="ref.png">
-            </a>
+            
+          <img style="height: 58px;" src="Refis.png">
+            
         </li>
       </ul>
     </div>
@@ -50,37 +52,60 @@
 </nav>
         </header>
         <div class="b-example-divider"></div>
+            <div class="container px-4 py-5" id="hanging-icons">
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="col d-flex align-items-start">
+                    <div>
+                        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="125px">
+                        <a href="https://getbootstrap.com/" class="btn btn-dark">
+                            Bootstrap
+                        </a>
+                        <p>Mayoría de la estructura CSS usada.</p>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                    <div>
+                        <img src="https://logos-world.net/wp-content/uploads/2021/03/Google-Fonts-Logo.png" width="150px">
+                        <a href="https://fonts.google.com/" class="btn btn-dark">
+                        Google Fonts
+                        </a>
+                        <p>Fuentes de la tipografía usada.</p>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                    <div>
+                        <img src="https://es.wikipedia.org/static/images/icons/wikipedia.png" width="112px">
+                        <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="btn btn-dark">
+                        Wikipedia
+                        </a>
+                        <p>Fuente de información sobre el tema.</p>
+                    </div>
+                    </div>
+            </div>
+        </div>
 
-        <div class="container px-4 py-5" id="hanging-icons">
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-              <div>
-                <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="125px">
-                <a href="https://getbootstrap.com/" class="btn btn-dark">
-                    Bootstrap
-                </a>
-                <p>Mayoría de la estructura CSS usada.</p>
-              </div>
+        <div class="b-example-divider"></div>
+            <div class="container px-4 py-5" id="hanging-icons">
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="col d-flex align-items-start">
+                    <div>
+                        <img src="KsLabs.png" alt="Bootstrap" width="125px" style="border-radius: 10px;">
+                        <a href="https://breakingbadintrocreator.kassellabs.io/ORxsNhDNwNYpXqK8yEC" class="btn btn-dark">
+                            Kassel Labs
+                        </a>
+                        <p>Iconos de la talba periódica tematicos de Breaking Bad</p>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                    <div>
+                        <img src="amc.png" width="150px">
+                        <a href="https://www.amctv.la" class="btn btn-dark">
+                        AMC
+                        </a>
+                        <p>Distribuidora de Breaking Bad y fuente de información principal sobre la serie.</p>
+                    </div>
+                    </div>
             </div>
-            <div class="col d-flex align-items-start">
-              <div>
-                <img src="https://logos-world.net/wp-content/uploads/2021/03/Google-Fonts-Logo.png" width="150px">
-                <a href="https://fonts.google.com/" class="btn btn-dark">
-                  Google Fonts
-                </a>
-                <p>Fuentes de la tipografía usada.</p>
-              </div>
-            </div>
-            <div class="col d-flex align-items-start">
-              <div>
-                <img src="https://es.wikipedia.org/static/images/icons/wikipedia.png" width="112px">
-                <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" class="btn btn-dark">
-                  Wikipedia
-                </a>
-                <p>Fuente principal de información sobre el tema.</p>
-              </div>
-            </div>
-          </div>
         </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
